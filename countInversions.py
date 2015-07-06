@@ -1,14 +1,18 @@
 
 
-## Assignment 1
+#						 Assignment 1
 
-# counting inversions in O(n*logn) time
+# 					counting inversions in O(n*logn) time
+#                                         using bottom up merge sort method
 
 # This is a non-recursive version of counting
 # the number of inversions in x
 
 # An inversion occurs when elements a and b are such that
 # a>b but a occurs before b in the ordered list
+
+# This in a sense is a bottom up recursion where elements start out as single numnbers, then get
+# grouped into pairs and then into 4-tuples and so on, in the traditional style of mergeSort
 
 inversions=0 # global variable stores count of inversions found in x
 
